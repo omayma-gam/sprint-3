@@ -5,6 +5,41 @@
     <title>Employee List</title>
     <!-- Add Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f0f2f5;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #343a40;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .btn-sm {
+            padding: 5px 10px;
+        }
+    </style>
 </head>
 <body>
 <div class="container mt-5">

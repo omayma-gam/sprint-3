@@ -49,6 +49,7 @@ public class Persondao {
             return;
         }
 
+
         String query = "INSERT INTO person (nom, prenom, email, poste, salaire) VALUES (?, ?, ?, ?, ?)";
         try (PreparedStatement stmt = connection.prepareStatement(query)) {
             stmt.setString(1, person.getNom());
