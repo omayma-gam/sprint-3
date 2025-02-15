@@ -43,7 +43,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1>Employee List</h1>
+    <h1>Listes des Employées</h1>
     <table class="table table-bordered">
         <thead>
         <tr>
@@ -66,10 +66,10 @@
                 <td>${person.poste}</td>
                 <td>${person.salaire}</td>
                 <td>
-                    <a href="update?id=${person.id}" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="update?id=${person.id}" class="btn btn-warning btn-sm">Modifier</a>
                     <form action="delete" method="post" style="display:inline;">
                         <input type="hidden" name="id" value="${person.id}">
-                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        <button type="submit" class="btn btn-danger btn-sm">Supprimer</button>
                     </form>
                 </td>
             </tr>

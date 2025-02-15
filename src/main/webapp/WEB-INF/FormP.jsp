@@ -46,14 +46,14 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1>Create Employee</h1>
+    <h1 style="color: #007bff">Crée un Employée </h1>
     <form action="create" method="post">
         <div class="form-group">
             <label for="name">Nom:</label>
             <input type="text" class="form-control" name="name" id="name">
         </div>
         <div class="form-group">
-            <label for="prenom">Prenom:</label>
+            <label for="prenom">Prénom:</label>
             <input type="text" class="form-control" name="prenom" id="prenom">
         </div>
         <div class="form-group">
@@ -68,7 +68,7 @@
             <label for="salaire">Salaire:</label>
             <input type="text" class="form-control" name="salaire" id="salaire">
         </div>
-        <button type="submit" class="btn btn-custom" style="background-color: chocolate">Submit</button>
+        <button type="submit" class="btn btn-custom" style="background-color: cadetblue">Entrer</button>
     </form>
 </div>
 </body>
